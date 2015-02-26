@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+@font-face {
+  font-family: 'Colors Of Autumn';
+  src: url('Colors Of Autumn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+  cursor: default;
+  text-align: center;
+}
+
+body:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+main {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: 'Colors Of Autumn', sans-serif;
+  font-size: 4em;
+}
+
+.subline {
+  font-size: 2em;
+}
