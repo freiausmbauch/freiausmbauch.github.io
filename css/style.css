@@ -17,6 +17,7 @@ body {
   font-size: 18px;
   cursor: default;
   text-align: center;
+  transition: background .5s ease-in;
 }
 
 body:before {
@@ -24,6 +25,16 @@ body:before {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
+}
+
+body:hover {
+  color: white;
+  background: black;
+}
+
+body:hover a {
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 a {
@@ -49,4 +60,8 @@ h1 {
 
 .subline {
   font-size: 2em;
+}
+
+h1, .subline, a {
+  transition: all 1s ease-in;
 }
