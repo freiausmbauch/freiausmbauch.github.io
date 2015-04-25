@@ -26,6 +26,7 @@ body {
   text-align: center;
   transition: background .5s ease-in;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 body:before {
@@ -64,10 +65,7 @@ main {
 h1 {
   font-family: 'Colors Of Autumn', sans-serif;
   font-size: 4em;
-}
-
-h2 {
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 .subline {
