@@ -7,17 +7,25 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Universal Accreditation';
+  src: url('uni_acc_italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Universal Accreditation', cursive;
   font-size: 18px;
   cursor: default;
   text-align: center;
   transition: background .5s ease-in;
+  text-transform: uppercase;
 }
 
 body:before {
@@ -58,10 +66,22 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+  letter-spacing: 1px;
+}
+
 .subline {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h1, .subline, a {
   transition: all 1s ease-in;
+}
+
+.teaser {
+  margin-top: 200px;
+}
+
+.teaser h2 > a:before {
+  content: '> ';
 }
