@@ -87,6 +87,10 @@ h1, .subline, a {
   margin-top: 0;
 }
 
+.teaser p:last-child {
+  margin-bottom: 0;
+}
+
 .teaser p > a:before {
   content: '> ';
 }
