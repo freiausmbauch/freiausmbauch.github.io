@@ -29,11 +29,18 @@ body {
   letter-spacing: 2px;
 }
 
-body:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+@media screen and (min-width: 790px) {
+  body:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  main {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 body:hover {
@@ -55,11 +62,6 @@ a {
 a:active {
   position: relative;
   top: 1px;
-}
-
-main {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 h1 {
