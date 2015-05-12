@@ -78,8 +78,13 @@ h1, .subline, a {
 
 .teaser {
   margin-top: 200px;
+  font-size: 1.5em;
 }
 
-.teaser h2 > a:before {
+.teaser p {
+  margin-top: 0;
+}
+
+.teaser p > a:before {
   content: '> ';
 }
